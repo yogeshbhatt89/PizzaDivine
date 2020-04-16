@@ -1,0 +1,56 @@
+
+#head{
+	float:center;
+	margin-bottom:auto;
+	white-space: nowrap;
+	text-align: center;
+	box-sizing: border-box;
+	clear:both;
+}	
+main{
+	
+	width:70%;
+	float:left;
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: bottom;
+	z-index:1;
+	display:table;
+	z-index:1
+}
+
+aside{
+	
+	width:15%;
+	height:100%;
+	clear:left;
+	float:left;
+	box-sizing: border-box;
+	z-index:-1;
+}
+
+#right{
+	position: relative;
+	display: block;
+	width:15%;
+	height:100%;
+	clear:right;
+	float:right;
+	box-sizing: border-box;
+	z-index:-1;
+}
+
+footer{
+	
+	text-align:center;
+	clear:both;
+	float:center;
+}
+
+#story{
+	color:white;
+	font-size:20px;
+	background-color:#c23030;
+	font-family:"Lucida Console";
+}
+
